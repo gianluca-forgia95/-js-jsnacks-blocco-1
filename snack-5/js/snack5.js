@@ -7,7 +7,7 @@ for ( var i = 1; i <= 6; i++) {
   var numero = parseInt(prompt('Inserisci il tuo numero'));
 }
 if ( numero % 2 == 1) {
-  numero.push(numeri);
+  numeri.push(numero);
 }
 //Stampo il numero pari
-console.log(numero);
+console.log(numeri);
