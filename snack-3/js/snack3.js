@@ -5,7 +5,7 @@ inseriti.*/
 var somma = 0;
 
 for  ( var i = 1; i <= 10; i++ )  {
-  var number = parseint(prompt("Inserisci un numero"));
+  var number = parseInt(prompt("Inserisci un numero"));
   somma = somma + number;
 }
 
